@@ -1,12 +1,21 @@
-# React + Vite
+# 📚 LMS Frontend - Modern Learning Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A responsive, interactive frontend for Learning Management Systems** built with:  
+⚡ React.js / Next.js  
+🎨 Tailwind CSS & ShadCN UI  
+✨ Interactive components with Framer Motion  
+📱 Fully mobile-responsive design  
 
-Currently, two official plugins are available:
+**Key Features:**  
+- Course catalog with filters and search  
+- Interactive lesson player with progress tracking  
+- Student dashboard with analytics  
+- Admin panel for content management  
+- Accessibility-first design (WCAG 2.1 compliant)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Optimized for:**  
+- Fast performance (Lighthouse score >95)  
+- Seamless API integration  
+- Scalable component architecture  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Just Clone and use
