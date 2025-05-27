@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: Outfit, sans-serif;
+}
+
+@layer base {
+  html{
+    scroll-behavior: smooth;
+  }
+}
+
+
+.rich-text { font-size: 15px; color: #7A7B7D; }
+
+.rich-text p { margin-bottom: 16px; }
+
+.rich-text h1 { font-size: 36px; font-weight: 800; color: #252525; margin: 32px 0; }
+
+.rich-text h2 { font-size: 22px; font-weight: 700; color: #252525; margin: 24px 0; }
+
+.rich-text h3 { font-size: 18px; font-weight: 600; color: #333333; margin: 20px 0; }
+
+.rich-text h4 { font-size: 16px; font-weight: 500; color: #444444; margin: 16px 0; }
+
+.rich-text h5 { font-size: 14px; font-weight: 400; color: #555555; margin: 12px 0; }
+
+.rich-text h6 { font-size: 12px; font-weight: 400; color: #666666; margin: 8px 0; }
+
+.rich-text strong { font-weight: 700; }
+
+.rich-text ol { margin-left: 30px; list-style-type: decimal; }
+
+.rich-text ul { margin-left: 30px; list-style-type: disc; }
+
+.rich-text li { margin-bottom: 8px; }
+
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin 1.5s linear infinite;
+}
+.animation-delay-100 {
+  animation-delay: -0.1s;
+}
+.animation-delay-200 {
+  animation-delay: -0.2s;
+}
+.animation-delay-300 {
+  animation-delay: -0.3s;
+}
+/* Continue up to animation-delay-600 as needed */
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.8; transform: scale(0.95); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+.animate-pulse-slow {
+  animation: pulse-slow 2s ease-in-out infinite;
+}
+
+@keyframes fade-in-out {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+.animate-fade-in-out {
+  animation: fade-in-out 1.5s ease-in-out infinite;
+}
+
+
+
