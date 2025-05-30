@@ -6,7 +6,7 @@
 ✨ Interactive components with Framer Motion  
 📱 Fully mobile-responsive design  
 
----
+
 
 ## 🔥 Key Features
 
@@ -16,7 +16,6 @@
 - Admin panel for content management  
 - Accessibility-first design (WCAG 2.1 compliant)
 
----
 
 ## 🚀 Optimized For
 
@@ -26,7 +25,7 @@
 
 Just **clone and use** 👇
 
----
+
 
 ## 💻 Tech Stack
 
@@ -37,7 +36,7 @@ Just **clone and use** 👇
 - **Heroicons / Lucide** – Icon sets  
 - **JavaScript (ES6+)** – Functionality
 
----
+
 
 ## ✅ Project Highlights
 
@@ -53,7 +52,7 @@ Just **clone and use** 👇
 - 🛠️ **Custom & Modified**  
   Built from scratch, deeply customized and inspired by **GreatStack**
 
----
+
 
 ## 📁 Folder Structure
 
@@ -68,7 +67,7 @@ src/
 
 
 
----
+
 
 ## 🖥️ Pages / Views
 
@@ -79,7 +78,6 @@ src/
 - 🧑‍💼 `Admin Panel` – Manage courses & users
 - 👤 `Profile` – Settings and preferences
 
----
 
 ## 🚀 Getting Started
 
